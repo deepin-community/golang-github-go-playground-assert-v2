@@ -1,5 +1,21 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-go-playground-assert-v2 (2.0.1-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + golang-github-go-playground-assert-v2-dev: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 26 Nov 2022 13:50:35 +0000
+
+golang-github-go-playground-assert-v2 (2.0.1-2) unstable; urgency=medium
+
+  * Source-only upload for testing eligibility.
+
+ -- Cyril Brulebois <cyril@debamax.com>  Thu, 07 Jan 2021 14:01:59 +0000
+
+golang-github-go-playground-assert-v2 (2.0.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #978504).
+  * Retain the /v2 suffix in Go-Import-Path and advertise it through the
+    -v2 part of the source and binary package names, as discussed on the
+    debian-go@ mailing list.
+
+ -- Cyril Brulebois <cyril@debamax.com>  Mon, 28 Dec 2020 09:00:46 +0000
